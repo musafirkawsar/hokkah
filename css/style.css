@@ -1,0 +1,1362 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+ul,ol{
+    list-style: none;
+}
+html,body{
+    overflow-x: hidden;
+}
+body{
+    background: url(../images/body-bag\,png.png)no-repeat;
+    background-size: cover;
+}
+h1,h2,h3,h4,h5,h6,p{
+    margin: 0;
+    padding: 0;
+}
+.title{
+    text-align: center;
+}
+.title h6{
+    font-size: 40px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    color: #fcfcfc;
+    margin-bottom: 15px;
+}
+/* ===========================
+      nav start
+===================================*/
+nav {
+	padding: 15px 0 !important;
+	position: fixed !important;
+	width: 100%;
+	top: 0;
+	left: 0;
+	z-index: 9999;
+}
+nav .navbar-nav .nav-item .nav-link {
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    margin-left: 55px;
+    position: relative;
+    z-index: 999;
+}
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+	color: #ffffff;
+}
+nav .navbar-nav .nav-item .nav-link::after {
+	width: 100%;
+	height: 0px;
+	position: absolute;
+	top: -42px;
+	left: 0;
+	background: #ffffff;
+	content: "";
+	z-index: -1;
+	border-bottom: 2px solid #ed5034;
+    transition: .5s;
+    opacity: 1;
+}
+nav .navbar-nav .nav-item .nav-link:hover::after{
+    height: 100px;
+    opacity: 1;
+}
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+	color: #ed5034;
+}
+.stickumenu{
+    background: #0a0b0c !important;
+}
+/* ===========================
+      nav end
+===================================*/
+/* ===========================
+      banner start
+===================================*/
+#banner-part .banner-ultra{
+    position: relative;
+}
+#banner-part .banner-ultra .prev {
+	color: #8b8c8e;
+	position: absolute;
+	bottom: 5%;
+	left: 48%;
+	transform: translateX(-50%);
+	z-index: 999;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid #8b8c8e;
+	text-align: center;
+	line-height: 70px;
+	font-size: 28px;
+	transition: .5s;
+}
+#banner-part .banner-ultra .nxt {
+	color: #8b8c8e;
+	position: absolute;
+	bottom: 5%;
+	right: 44%;
+	transform: translateX(-50%);
+	z-index: 999;
+	width: 70px;
+	height: 70px;
+	border-radius: 50%;
+	border: 1px solid #8b8c8e;
+	text-align: center;
+	line-height: 70px;
+	font-size: 28px;
+    transition: .5s;
+}
+#banner-part .banner-ultra .banner{
+    background: url(../images/banner-bg-2.png)no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner-ultra .banner .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding-top: 240px;
+    padding-bottom: 255px
+}
+#banner-part .banner-ultra .banner .overlay .details{
+    color: #ffffff;
+    text-align: center;
+}
+#banner-part .banner-ultra .banner .overlay .details h3{
+    font-size: 36px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+#banner-part .banner-ultra .banner .overlay .details h6{
+    font-size: 72px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+#banner-part .banner-ultra .banner .overlay .details .pp{
+    padding-top: 20px;
+}
+#banner-part .banner-ultra .banner .overlay .details p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #8b8c8e; 
+    position: relative;
+    padding-top: 40px;
+}
+#banner-part .banner-ultra .banner .overlay .details p::after {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	left: 36%;
+	content: "";
+}
+#banner-part .banner-ultra .banner .overlay .details p::before {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	right: 36%;
+	content: "";
+}
+#banner-part .banner-ultra .prev:hover{
+    background: #ffffff;
+    color: #ed5034;
+    border: 1px solid transparent;
+}
+#banner-part .banner-ultra .nxt:hover{
+    background: #ffffff;
+    color: #ed5034;
+    border: 1px solid transparent;
+}
+#banner-part .banner-ultra .banner2{
+    background: url(../images/banner-2-slider.png)no-repeat center;
+    background-size: cover;
+}
+#banner-part .banner-ultra .banner2 .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding-top: 240px;
+    padding-bottom: 255px
+}
+#banner-part .banner-ultra .banner2 .overlay .details{
+    color: #ffffff;
+    text-align: center;
+}
+#banner-part .banner-ultra .banner2 .overlay .details h3{
+    font-size: 36px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+#banner-part .banner-ultra .banner2 .overlay .details h6{
+    font-size: 72px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+#banner-part .banner-ultra .banner2 .overlay .details .pp{
+    padding-top: 20px;
+}
+#banner-part .banner-ultra .banner2 .overlay .details p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #8b8c8e; 
+    position: relative;
+    padding-top: 40px;
+}
+#banner-part .banner-ultra .banner2 .overlay .details p::after {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	left: 36%;
+	content: "";
+}
+#banner-part .banner-ultra .banner2 .overlay .details p::before {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	right: 36%;
+	content: "";
+}
+/* ===================================================================
+ again b
+=============================================================================== */
+#banner-part .banner-ultra .bannerr {
+	background: url(../images/lisha.png)no-repeat center;
+	background-size: cover;
+}
+#banner-part .banner-ultra .bannerr .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding-top: 240px;
+    padding-bottom: 255px
+}
+#banner-part .banner-ultra .bannerr .overlay .details{
+    color: #ffffff;
+    text-align: center;
+}
+#banner-part .banner-ultra .bannerr .overlay .details h3{
+    font-size: 36px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 100;
+    padding-bottom: 60px;
+}
+#banner-part .banner-ultra .bannerr .overlay .details h6{
+    font-size: 72px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+#banner-part .banner-ultra .bannerr .overlay .details .pp{
+    padding-top: 20px;
+}
+#banner-part .banner-ultra .bannerr .overlay .details p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 28px;
+    font-weight: 100;
+    color: #8b8c8e; 
+    position: relative;
+    padding-top: 40px;
+}
+#banner-part .banner-ultra .bannerr .overlay .details p::after {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	left: 36%;
+	content: "";
+}
+#banner-part .banner-ultra .bannerr .overlay .details p::before {
+	position: absolute;
+	width: 105px;
+	height: 2px;
+	background: #ed5034;
+	bottom: 25%;
+	right: 36%;
+	content: "";
+}
+/* ===========================
+ muliti  about 
+===================================*/
+#banner-part .banner-ultra .banner .overlayy{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    padding-top: 180px;
+    padding-bottom: 100px;
+}
+#banner-part .banner-ultra .banner .overlayy .details{
+    color: #ffffff;
+    text-align: center;
+}
+#banner-part .banner-ultra .banner .overlayy .details .hill{
+    font-size: 42px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+}
+#banner-part .banner-ultra .banner .overlayy .details .till {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	padding-top: 22px;
+	color: #ffffff;
+}
+#banner-part .banner-ultra .banner .overlayy .details .till::after{
+    width: 0;
+}
+#banner-part .banner-ultra .banner .overlayy .details .till::before{
+    width: 0;
+}
+/* ===========================
+    contact  banner
+===================================*/
+#banner-part .banner-ultra .bannerrr {
+	background: url(../images/con-bg.png)no-repeat center;
+	background-size: cover;
+}
+#banner-part .banner-ultra .bannerrr .overlayy{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.7);
+    padding-top: 300px;
+    padding-bottom: 300px;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details{
+    text-align: center;
+    position: relative;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details .hill{
+    font-size: 42px;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    color: #ffffff;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details .till {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	padding-top: 22px;
+	color: #ffffff;
+    position: relative;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details .till::after{
+    width: 51px;
+    height: 2px;
+    background: #fff;
+    position: absolute;
+    bottom: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 5px;
+    content: "";
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details .btnn {
+	margin-top: 40px;
+	background: url(../images/button-bg.png)no-repeat bottom;
+	padding: 10px 20px;
+	border: 1px solid #313436;
+	border-radius: 40px;
+	display: inline-block;
+	position: absolute;
+	bottom: -110%;
+	left: 50%;
+    transform: translateX(-50%);
+	z-index: 999;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .details .btnn a {
+	color: #eb4f34;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer {
+	transform: translateY(200%);
+    margin-left: 390px;
+    display: inline-flex;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer .deep-item{
+    display: inline-flex;
+    justify-content: space-between;
+    margin-right: 111px;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer .item{
+    margin-right: 20px;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer .item .text  span{
+    font-family: 'Yeseva One', cursive;
+    font-size: 60px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer .item .text{
+    text-align: center;
+}
+#banner-part .banner-ultra .bannerrr .overlayy .timer .item .text h5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 26px;
+	font-weight: 400;
+	color: #fcfcfc;
+	margin-top: -15px;
+}
+/* ===========================
+      banner end
+===================================*/
+/* ===========================
+      about start
+===================================*/
+#about-part .about-ultra{
+    position: relative;
+}
+#about-part .about-ultra .imag {
+    margin-top: -255px;
+    margin-left: -23px;
+}
+#about-part .about-ultra .imag .round {
+	width: 125px;
+	height: 125px;
+	border: 1px solid #fcfcfc;
+	border-radius: 50%;
+	position: absolute;
+	top: 41%;
+	left: 40%;
+	transform: translateX(-50%);
+}
+#about-part .about-ultra .imag .round .mini-round{
+    width: 100px;
+    height: 100px;
+    background: #fcfcfc;
+    border-radius: 50%;
+    transform: translate(12%,12%); 
+    position: relative; 
+}
+#about-part .about-ultra .imag .round .mini-round a {
+	color: #ed5034;
+	position: absolute;
+	top: 36%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#about-part .about-ultra .details h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+    padding-top: 170px;
+}
+#about-part .about-ultra .details h3:after{
+    width: 100px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    content: "";
+    border-radius: 3px;
+}
+#about-part .about-ultra .details h3:before{
+    width: 10px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: -5%;
+    right: 82%;
+    content: "";
+    border-radius: 3px;
+}
+#about-part .about-ultra .details p{
+    font-size: 18px;
+    font-family: 'Montserrat Alternates', sans-serif;
+    color: #fcfcfc;
+    font-weight: 300;
+    width: 657px;
+    padding-top: 45px;
+}
+#about-part .about-ultra .details .lip{
+    padding-top: 45px;
+}
+#about-part .about-ultra .details {
+    position: relative;
+}
+#about-part .about-ultra .details .btnn {
+	margin-top: 40px;
+	background: url(../images/button-bg.png)no-repeat bottom;
+	padding: 10px 20px;
+	border: 1px solid #313436;
+	border-radius: 40px;
+	display: inline-block;
+	-webkit-box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	position: absolute;
+	bottom: -17%;
+	left: 0;
+	z-index: 999;
+}
+#about-part .about-ultra .details .btnn a {
+	color: #eb4f34;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+}
+/* ===========================
+ again about 
+===================================*/
+#about-part .about-ultra .imag .roundd {
+	width: 125px;
+	height: 125px;
+	border: 1px solid #fcfcfc;
+	border-radius: 50%;
+	position: absolute;
+	top: 43%;
+	left: 35%;
+	transform: translateX(-50%);
+}
+#about-part .about-ultra .imag .roundd .mini-round{
+    width: 100px;
+    height: 100px;
+    background: #fcfcfc;
+    border-radius: 50%;
+    transform: translate(12%,12%); 
+    position: relative; 
+}
+#about-part .about-ultra .imag .roundd .mini-round a {
+	color: #ed5034;
+	position: absolute;
+	top: 36%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#about-part .about-ultra .details .btnnn {
+	margin-top: 40px;
+	background: url(../images/button-bg.png)no-repeat bottom;
+	padding: 10px 20px;
+	border: 1px solid #313436;
+	border-radius: 40px;
+	display: inline-block;
+	-webkit-box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	-moz-box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	box-shadow: 10px 10px 200px 0px rgba(255,255,255,1);
+	position: absolute;
+	bottom: -17%;
+	left: 0;
+	z-index: 999;
+}
+#about-part .about-ultra .details .btnnn a {
+	color: #eb4f34;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+}
+/* ===========================
+      multi-about start
+===================================*/
+#about-part .about-ultra .multi-venubox {
+	display: inline-flex;
+	padding-top: 30px;
+}
+#about-part .about-ultra .details .lipp {
+	padding-top: 24px;
+}
+#about-part .about-ultra .multi-venubox .multi{
+    background: transparent;
+    width: 150px ;
+    height: 150px;
+    border-radius: 50%;
+    margin: 0 10px;
+    position: relative;
+    overflow: hidden;
+}
+#about-part .about-ultra .multi-venubox .multi .overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0,.6);
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    transition: .5s;
+    z-index: 999 !important;
+}
+#about-part .about-ultra .multi-venubox .multi .overlay .roundd {
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	border: 2px solid rgba(166, 166, 166,.8);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#about-part .about-ultra .multi-venubox .multi .overlay .roundd .minni-round{
+    width: 60px;
+    height: 60px;
+    background: rgba(166, 166, 166,.8) ;
+    border-radius: 50%;
+    position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+#about-part .about-ultra .multi-venubox .multi .overlay .roundd .minni-round a {
+	color: rgba(237, 80, 52,.7);
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translateX(-50%);
+}
+#about-part .about-ultra .multi-venubox .multi img{
+    position: absolute;
+    top: -10px;
+    left: -52%;
+}
+#about-part .about-ultra .multi-venubox .multi .ow{
+    position: absolute;
+    top: -63px;
+    left: -104%;
+}
+#about-part .about-ultra .multi-venubox .multi .bo{
+    position: absolute;
+    top: -10px;
+    left: -42%;
+}
+#about-part .about-ultra .multi-venubox .multi:hover .overlay{
+    opacity: 1;
+    cursor: pointer;
+}
+/* ===========================
+      about end
+===================================*/
+/* ===========================
+      happy start
+===================================*/
+#happy-part .happy-ultra {
+	background: #050505;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+#happy-part .des{
+    margin-bottom: 50px;
+    margin-top: 129px;
+}
+#happy-part .happy-ultra .textt .img .sisa{
+    position: absolute;
+    top: -506px;
+    left: -289px;
+}
+#happy-part .happy-ultra .textt{
+    display: flex;
+    position: relative;
+}
+#happy-part .happy-ultra .textt .detls {
+	position: absolute;
+	top: 50px;
+	left: 207px;
+	padding-left: 60px;
+    border-left: 2px solid #262525;
+}
+#happy-part .happy-ultra .textt .detls .pp{
+    margin-top: 40px;
+}
+#happy-part .happy-ultra .textt .img {
+    position: relative;
+}
+#happy-part .happy-ultra .textt .img img {
+	position: absolute;
+	top: -304px;
+	left: -118px;
+}
+#happy-part .happy-ultra .textt .detls  span{
+   font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 400;
+    color: #ffffff;
+}
+#happy-part .happy-ultra .textt .detls p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color: #ffffff;
+    position: relative;
+}
+#happy-part .happy-ultra .textt .detls h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 26px;
+    font-weight: 100;
+    color: #ffffff;
+    position: relative;
+}
+#happy-part .happy-ultra .textt .detls p::after {
+	width: 51px;
+	height: 2px;
+	background: #eb4f34;
+	position: absolute;
+	bottom: -50%;
+	left: 2%;
+	content: "";
+	border-radius: 3px;
+}
+#happy-part .happy-ultra .textt .detls p::before {
+	width: 10px;
+	height: 2px;
+	background: #eb4f34;
+	position: absolute;
+	bottom: -50%;
+	right: 75%;
+	content: "";
+	border-radius: 3px;
+}
+#happy-part .happy-ultra .last {
+	transform: translatex(50%);
+	margin-top: 35px;
+}
+#happy-part .happy-ultra .last .item {
+	text-align: center;
+}
+#happy-part .happy-ultra .item h4{
+    font-family: 'Yeseva One', cursive;
+	font-size: 30px;
+	font-weight: 400;
+    color: #fcfcfc;
+    margin-top: 40px;
+}
+#happy-part .happy-ultra .item .dip-item {
+	display: flex;
+	justify-content: space-around;
+    padding-top: 30px;
+}
+#happy-part .happy-ultra .item .dip-item .round1{
+    width: 152px;
+    height: 152px;
+    background: url(../images/count-bg.png)no-repeat center;
+    background-size: cover;
+    border-radius: 50%;
+    border: 1px solid #313436;
+    -webkit-box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+    -moz-box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+    box-shadow: 10px 10px 200px 0px rgba(255,255,255,0.21);
+}
+#happy-part .happy-ultra .item .dip-item .round1 .text{
+    text-align: center;
+    margin-top: 18px;
+}
+#happy-part .happy-ultra .item .dip-item .round1 span{
+    font-family: 'Yeseva One', cursive;
+	font-size: 60px;
+	font-weight: 400;
+    color: #fcfcfc;
+}
+#happy-part .happy-ultra .item .dip-item .round1 h5 {
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+	color: #fcfcfc;
+	margin-top: -15px;
+}
+/* ===========================
+      happy end
+===================================*/
+/* ===========================
+      team start
+===================================*/
+#team-part{
+    padding-bottom: 100px;
+    position: relative;
+}
+#team-part .title {
+	z-index: 999 !important;
+	position: absolute;
+	transform: translatex(-50%);
+	left: 50%;
+	top: 10%;
+}
+#team-part .team{
+    position: relative;
+    padding-top: 170px;
+}
+#team-part .team .round{
+    width: 270px;
+    height: 270px;
+    border-radius: 50%;
+    margin: 20px auto;
+    position: relative;
+    overflow: hidden;  
+}
+#team-part .team .round img {
+	position: absolute;
+	top: 0px;
+	left: -35%;
+}
+#team-part .team .round .for {
+	position: absolute;
+	top: 0px;
+	left: -15%;
+}
+#team-part .team .round .dor {
+	position: absolute;
+	top: 0px;
+	left: -77%;
+}
+#team-part .team .round .ce {
+	position: absolute;
+	top: 0 ;
+	left: 0;
+}
+#team-part .team .round .cc {
+	position: absolute;
+	top: 0 ;
+	left: -96%;
+}
+#team-part .team .round .c2 {
+	position: absolute;
+    top: -89px;
+    left: -45%;
+}
+#team-part .team .smoke {
+	position: absolute;
+	top: -108px;
+	left: -8px;
+	width: 110%;
+	height: 110%;
+    opacity: 0;
+	z-index: -1;
+    transition: .4s;
+    visibility: hidden;
+}
+#team-part .team:hover .smoke{
+    visibility: visible;
+    opacity: 1;
+}
+#team-part .team .smoke img{
+	width: 100%;
+}
+
+#team-part .slick-dots li{
+    display: inline-block;
+}
+#team-part .slick-dots{
+    font-size: 0;
+    position: absolute;
+    left: 50%;
+    bottom: -80px;
+    transform: translateX(-50%);
+}
+#team-part .slick-dots li button{
+    margin: 0 5px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    border: 1px solid #000;
+    background: #fff; 
+}
+#team-part .slick-dots .slick-active  button{
+    background: #ed5034;
+
+}
+#team-part .text{
+    color: #fff;
+    text-align: center;
+    margin-top: 30px;
+}
+#team-part .text h4{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+}
+#team-part .text p{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* ===========================
+     again team
+===================================*/
+#team-part .team-ultra .item .team .dinn{
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* ===========================
+      team end
+===================================*/
+/* ===========================
+      gallery start
+===================================*/
+#gallery-part .gallery-ultra .title{
+    margin-bottom: 50px;
+}
+#gallery-part .gallery-ultra{
+    text-align: center;
+}
+#gallery-part .gallery-ultra .gallery{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+#gallery-part .gallery-ultra .gallery .pic{
+    height: 100%;
+    margin: 0 10px;
+}
+#gallery-part .gallery-ultra .dim {
+	width: 100%;
+	height: 100%;
+}
+#gallery-part .gallery-ultra .gallery .brackets {
+	position: absolute;
+	top: 75%;
+	right: 15%;
+	opacity: 0;
+	transition: .5s;
+}
+#gallery-part .gallery-ultra .gallery .brackets img {
+	background: rgba(0, 0, 0,.8);
+	padding: 20px;
+}
+#gallery-part .gallery-ultra .btn{
+    margin-top: 40px;
+    background: url(../images/browse-banner.png)no-repeat top;
+    background-size: cover;
+	padding: 15px 40px;
+	border: 1px solid #313436;
+	border-radius: 40px;
+    display: inline-block;
+    -webkit-box-shadow: 1px 55px 217px 90px rgba(255,255,255,0.2);
+    -moz-box-shadow: 1px 55px 217px 90px rgba(255,255,255,0.2);
+    box-shadow: 1px 55px 217px 90px rgb(255, 255, 255,0.2);
+    margin-bottom: 100px;
+    margin-top: 60px;
+}
+#gallery-part .gallery-ultra .btn a{
+    color: #eb4f34;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+}
+#gallery-part .gallery-ultra .gallery:hover .brackets{
+    opacity: 1;
+}
+/* ===========================
+      gallery end
+===================================*/
+/* ===========================
+     mutiple gallery start
+===================================*/
+#gallery-part .gallery-ultra .gallery .picc{
+    height: 100%;
+    margin: 0 15px;
+}
+#gallery-part .dis{
+    margin-top: 100px;
+}
+#gallery-part .gallery-ultra .ses{
+    margin-top: 30px;
+}
+/* ===========================
+      lemon start
+===================================*/
+#lemon-part{
+    margin-top: 120px;
+}
+#lemon-part .lemon-ultra .lemon{
+    position: relative;
+    z-index: 1;
+}
+#lemon-part .lemon-ultra .tet{
+    margin-bottom: 30px;
+}
+#lemon-part .lemon-ultra .tet h3{
+    font-family: 'Yeseva One', cursive;
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    position: relative;
+}
+#lemon-part .lemon-ultra .tet h3:after{
+    width: 160px;
+    height: 3px;
+    background: #ed5034;
+    position: absolute;
+    bottom: -5%;
+    left: 0;
+    content: "";
+    border-radius: 3px;
+}
+#lemon-part .lemon-ultra .tet h3::before {
+	width: 10px;
+	height: 3px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -5%;
+	right: 79%;
+	content: "";
+	border-radius: 3px;
+}
+#lemon-part .lemon-ultra .dp{
+    margin-top: -6px;
+    z-index: 1;
+}
+#lemon-part .lemon-ultra .lemon .limca{
+    position: absolute;
+    top: 20% ;
+    left: 10% ;
+}
+#lemon-part .lemon-ultra .lemon .imig{
+    position: absolute;
+    top: -160px;
+    left: -31%;
+    z-index: -1;
+}
+#lemon-part .lemon-ultra form select{
+    width: 100%;
+    border: 2px solid #222222;
+    background: transparent;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: #ffff;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 500;
+}
+#lemon-part .lemon-ultra form textarea{
+    width: 100%;
+    height: 200px;
+    border: 2px solid #222222;
+    background: transparent;
+    resize: none;
+    margin-top: 15px;
+    padding: 10px 20px;
+    color: white;
+}
+#lemon-part .lemon-ultra input{
+    width: 100%;
+    border: 2px solid #222222;
+    background: transparent;
+    padding: 10px 20px;
+    margin-top: 15px;
+    color: white;
+}
+#lemon-part .lemon-ultra input::placeholder{
+    color: white ;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+#lemon-part .lemon-ultra form textarea::placeholder{
+    color: white;
+    font-size: 14px;
+    font-family: 'Arimo', sans-serif;
+    font-weight: 400;
+}
+#lemon-part .lemon-ultra button{
+    margin-top: 40px;
+    background: url(../images/res-bs.png)no-repeat top;
+    background-size: cover;
+	padding: 17px 40px;
+	border: 2px solid #313436;
+    text-align: center;
+    -webkit-box-shadow: 1px 55px 217px 90px rgba(255,255,255,0.2);
+    -moz-box-shadow: 1px 55px 217px 90px rgba(255,255,255,0.2);
+    box-shadow: 1px 55px 217px 90px rgb(255, 255, 255,0.2);
+    color: #eb4f34;
+	font-family: 'Yeseva One', cursive;
+	font-size: 20px;
+	font-weight: 400;
+    width: 100%;
+}
+/* ===========================
+      lemon end
+===================================*/
+/* ===========================
+      testo start
+===================================*/
+#testo-part{
+    background:#000;
+    margin-top: 100px;
+    padding: 70px 0;
+}
+#testo-part .testo-ultra{
+    position: relative;
+}
+#testo-part .testo-ultra .title{
+    padding-bottom: 55px;
+}
+#testo-part .testo-ultra .nxt {
+	background: #fcfcfc;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 50%;
+	right: 5%;
+    transform: translateX(-50%);
+    color: #ed5034;
+    transition: .5s;
+}
+#testo-part .testo-ultra .prev {
+	background: #fcfcfc;
+	font-size: 20px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	line-height: 50px;
+	position: absolute;
+	top: 50%;
+	left: 0;
+	z-index: 999;
+    transform: translateX(-50%);
+    color: #ed5034;
+    transition: .5s;
+}
+#testo-part .testo-ultra .dil{
+    margin: 0 auto;
+}
+#testo-part .testo-ultra .hu{
+    display: flex;
+}
+#testo-part .testo-ultra .hu .texzt {
+	background: #0a0b0c;
+	padding: 15px 33px;
+    border-radius: 10px;
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+#testo-part .testo-ultra .hu .texzt .dipli{
+    padding-left: 0 !important;
+    position: unset;
+    transform: translateX(0);
+}
+#testo-part .testo-ultra .hu .texzt .dipli li{
+    display: inline-block;
+    color: #ed5034;
+}
+#testo-part .testo-ultra .hu .texzt p {
+	font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 200;
+	color: #ffffff;
+	width: 433px;
+	padding: 20px 0;
+}
+#testo-part .testo-ultra .hu .texzt h3{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+    color: #ffffff;
+}
+#testo-part .testo-ultra .hu .texzt span{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    font-weight: 100;
+    color: #ffffff;
+}
+#testo-part .testo-ultra .nxt:hover{
+    background: #ed5034;
+    color: #ffffff;
+}
+#testo-part .testo-ultra .prev:hover{
+    background: #ed5034;
+    color: #ffffff;
+}
+/* ===========================
+      testo end
+===================================*/
+/* ===========================
+      ag foot end
+===================================*/
+#foot-part .footer-ultra{
+    padding: 100px 0;
+    padding-bottom: 50px
+}
+#foot-part .footer-ultra .foot h4{
+    font-size: 32px;
+    color: #ffffff;
+    font-family: 'Yeseva One', cursive;
+    font-weight: 400;
+    position: relative;
+}
+#foot-part .footer-ultra .foot{
+    text-align: center;
+}
+#foot-part .footer-ultra .foot p{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+#foot-part .footer-ultra .foot span{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+}
+#foot-part .footer-ultra .foot h3{
+    font-size: 20px;
+    font-weight: 400;
+    color: #ffffff;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-top: 15px;
+}
+#foot-part .footer-ultra .foot h4::after {
+	width: 60px;
+	height: 4px;
+	background: #ed5034;
+	position: absolute;
+	bottom: -40%;
+	left: 44%;
+	content: "";
+	border-radius: 5px;
+}
+/* ===========================
+      ag foot end
+===================================*/
+/* ===========================
+       foot start
+===================================*/
+footer{
+    text-align: center;
+}
+footer span{
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-size: 20px;
+    color: #ffffff;
+    font-weight: 500;
+}
+footer ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+footer ul{
+    position: relative;
+    padding-left: 0;
+}
+footer ul::after {
+	width: 386px;
+	height: 1px;
+	background: #222222;
+	position: absolute;
+	bottom: 50%;
+	left: 20%;
+	content: "";
+}
+footer ul::before {
+	width: 386px;
+	height: 1px;
+	background: #222222;
+	position: absolute;
+	bottom: 50%;
+	right: 19%;
+	content: "";
+}
+footer ul li a{
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #ffffff;
+    text-align: center;
+    color: #eb4f34;
+    line-height: 70px;
+    font-size: 20px;
+    transition: .5s;
+}
+footer ul li a:hover{
+    background: #eb4f34;
+    color: #ffffff;
+}
+/* ===========================
+       foot end
+===================================*/
+footer .overlay{
+    width: 100%;
+    height: 100%;
+    background: url(../images/smik.png)no-repeat;
+    background-size: cover;
+}
+/* ===========================
+       foot end
+===================================*/
+/* ===========================
+      muti  foot start
+===================================*/
+#foot-part .ses{
+    background: url(../images/dnt.png)no-repeat;
+    background-size: cover;
+}
+#foot-part .ra{
+    transform: translatey(33%);
+    position: relative;
+}
+#foot-part .ra ul::before {
+	width: 386px;
+	height: 1px;
+	background: #222222;
+	position: absolute;
+	bottom: 50%;
+	right: 5%;
+	content: "";
+}
+#foot-part .ra ul::after {
+	width: 386px;
+	height: 1px;
+	background: #222222;
+	position: absolute;
+	bottom: 50%;
+	left: 6%;
+	content: "";
+}
+/* ===========================
+      muti  foot end
+===================================*/
+/* ===========================
+      muti  counter start
+===================================*/
+#multi-counter .counter-ultra .last-count {
+	background: url(../images/cina.png)no-repeat top;
+	background-color: #000;
+	padding: 40px 0;
+}
+#multi-counter .counter-ultra .last-count .ff{
+    margin-left: 85px;
+}
+#multi-counter .counter-ultra .last-count .item .text span{
+    font-family: 'Yeseva One', cursive;
+	font-size: 42px;
+	font-weight: 400;
+    color: #fcfcfc;
+}
+#multi-counter .counter-ultra .last-count .item .text h5 {
+    font-family: 'Montserrat Alternates', sans-serif;
+	font-size: 20px;
+	font-weight: 100;
+	color: #fcfcfc;
+
+}
+#multi-counter .counter-ultra .last-count .item .text{
+    text-align: center;
+}
+/* ===========================
+      muti  counter end
+===================================*/
